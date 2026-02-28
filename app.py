@@ -1,4 +1,5 @@
 """
+new development 
 SecureVault Pro - Premium FinTech Application
 A secure, beautiful personal wealth management platform with modern UI/UX
 """
@@ -12,6 +13,7 @@ from typing import Optional, Dict, Any
 import os
 import time
 import json
+import pil
 
 # Import our custom modules
 from database import DatabaseManager
@@ -1120,4 +1122,5 @@ def show_analytics():
         st.dataframe(df, use_container_width=True)
 
 if __name__ == "__main__":
+
     main()
